@@ -1,10 +1,10 @@
+import numpy as np
+import pandas as pd
+import requests
 import spotipy
 import streamlit as st
-import numpy as np
-from spotipy.oauth2 import SpotifyClientCredentials
 from PIL import Image
-import requests
-import pandas as pd
+from spotipy.oauth2 import SpotifyClientCredentials
 
 st.set_page_config(
     page_title="Find Songs Similar to Yours🎤", page_icon="🎤", layout="wide"
