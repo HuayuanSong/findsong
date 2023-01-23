@@ -5,8 +5,8 @@ from streamlit import session_state as session
 st.set_page_config(page_title="Song Recommender🎶", page_icon="🎶")
 
 st.title("Song Recommender🎶")
-st.markdown("Click on '**Recommender**' from the side panel to get started.")
-st.markdown("**How does it work?**")
+st.markdown("Click on '**Recommend from Song🎤**' from the side panel to get recommended songs via the Spotify API.")
+st.markdown("**How does '**Recommend from Genre Features🎸**' work?**")
 st.markdown(
     "The songs come from the [Spotify and Genius Track Dataset](https://www.kaggle.com/datasets/saurabhshahane/spotgen-music-dataset) on Kaggle. The [k-Nearest Neighbor algorithm](https://scikit-learn.org/stable/modules/neighbors.html) is used to obtain recommendations, i.e., the top songs which are closest in distance to the set of parameter inputs specified by you."
 )
